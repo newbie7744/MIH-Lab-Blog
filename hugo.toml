@@ -1,0 +1,38 @@
+baseURL = "https://blog.mihlab.me/"
+languageCode = "en-us"
+title = "MIH"
+theme = "archie"
+paginate = 5
+enableEmoji = true
+enableRobotsTXT = true
+[params]
+  customCSS = ["css/custom.css"]
+  mode = "auto"
+  copyright-year = '2026' 
+  subtitle = "Tinkerer,Dabbler of DevOps,Unemployed Engg Grad"
+ [params.style]
+    darkBackground = "#212121"
+    darkAccent = "#e75448"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+[menus]
+  [[menu.main]]
+     name = "Machines"
+     pageRef = "/machines"
+     weight = 10
+  [[menu.main]]
+     name = "Raspberry Pi 4"
+     pageRef = "/machines/pi-4"
+     parent = "Machines"
+     weight = 1
+  [[menu.main]]
+     name = "X64"
+     pageRef = "/machines/X64"
+     parent = "Machines"
+     weight = 2
+  [[menu.main]]
+     name = "About"
+     pageRef = "/about"
+     weight = 20

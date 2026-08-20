@@ -1,0 +1,28 @@
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  content: '' !important;
+}
+
+ul > li::before {
+  content: '• ' !important;
+}
+
+h2 {
+  font-size: 1.8rem !important;
+}
+
+.bio-photo {
+  width: 150px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.bio-container {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
