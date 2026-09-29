@@ -32,7 +32,7 @@ draft = false
 
 # Job Timeline
 
-- Still Not Yet
+- Jr Linux Server Administrator-Pingserv Solution LLP(29-09-2026)
 
 # Education Timeline
 
